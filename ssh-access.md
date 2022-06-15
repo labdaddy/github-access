@@ -1,4 +1,4 @@
-##SSH keys
+### SSH keys
 
 To use SSH, you need to put your SSH public key in your GitHub account. Your public key file is found in the ~/.ssh directory on a Mac or Linux machine and will generally be a file ending in .pub. Go to https://github.com/settings/keys
 
@@ -18,7 +18,7 @@ If you see either of the following, you know you're using SSH to interact with t
 `git@github.com:paciorek/test-auth.git`
 ssh://github.com/paciorek/test-auth
 
-Avoiding having to enter your SSH passphrase
+### Avoiding having to enter your SSH passphrase
 
 Note that you may be asked to enter your SSH passphrase when interacting with a repository. To avoid having to keep doing this, you can add your passphrase to your running SSH authentication agent, like this (assuming here your key is called 'id_rsa'):
 
